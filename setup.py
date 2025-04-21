@@ -14,8 +14,8 @@ setup(
         "numpy==1.24.2",
         "tqdm==4.65.0"
     ],
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="neavdak",
+    author_email="neavdak@gmail.com",
     description="A GAN-based system for simulating industrial processes.",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
