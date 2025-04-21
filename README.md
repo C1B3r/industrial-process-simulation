@@ -15,7 +15,7 @@ This project uses Generative Adversarial Networks (GANs) to simulate complex ind
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/industrial-process-simulation.git
+    git clone https://github.com/neavdak/industrial-process-simulation
     cd industrial-process-simulation
     ```
 
