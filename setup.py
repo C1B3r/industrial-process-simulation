@@ -19,7 +19,7 @@ setup(
     description="A GAN-based system for simulating industrial processes.",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url="https://github.com/yourusername/industrial-process-simulation",
+    url="https://github.com/neavdak/industrial-process-simulation",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
