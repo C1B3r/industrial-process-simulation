@@ -1,0 +1,64 @@
+{
+    "dataset_name": "Industrial Process Sensor Data",
+    "description": "Raw sensor data collected from industrial machines for predictive maintenance and process optimization.",
+    "created_on": "2025-04-21 23:22:46",
+    "sensors": [
+        {
+            "name": "Temperature",
+            "unit": "Celsius",
+            "range": [
+                -40,
+                150
+            ]
+        },
+        {
+            "name": "Pressure",
+            "unit": "Bar",
+            "range": [
+                0,
+                300
+            ]
+        },
+        {
+            "name": "FlowRate",
+            "unit": "L/min",
+            "range": [
+                0,
+                500
+            ]
+        },
+        {
+            "name": "Vibration",
+            "unit": "mm/s",
+            "range": [
+                0,
+                50
+            ]
+        },
+        {
+            "name": "Humidity",
+            "unit": "%",
+            "range": [
+                0,
+                100
+            ]
+        }
+    ],
+    "machines": [
+        {
+            "id": "MX-1001",
+            "type": "Centrifugal Pump"
+        },
+        {
+            "id": "MX-1002",
+            "type": "Heat Exchanger"
+        },
+        {
+            "id": "MX-1003",
+            "type": "Compressor"
+        }
+    ],
+    "collection_frequency": "1 sample/sec",
+    "data_source": "IoT edge devices via MQTT",
+    "author": "Your Company Name"
+}

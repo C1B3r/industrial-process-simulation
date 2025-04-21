@@ -1,0 +1,31 @@
+
+- **Explanation**: The `README.md` serves as the first place a user or developer will go for information about your project. It should include setup instructions, usage examples, and references to any additional documentation.
+
+---
+
+### 📄 `.gitignore`
+**Purpose:** Specifies which files and directories Git should ignore. This helps avoid committing unnecessary or sensitive files, like Python bytecode or model checkpoints.
+
+Example:
+
+```txt
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Model checkpoints (large files)
+models/saved/
+
+# Data files (if not needed in version control)
+data/raw/
+data/processed/
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
